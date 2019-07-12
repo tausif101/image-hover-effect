@@ -1,0 +1,27 @@
+* {}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  transition: .5s;
+  box-sizing: border-box;
+  -webkit-box-shadow: 10px 10px 19px -7px #1565FF;
+  box-shadow: 10px 10px 19px -7px #1565FF;
+}
+
+img:hover {
+  filter: grayscale(1) contrast(1.5);
+  transform: scale(1.3);
+
+}
